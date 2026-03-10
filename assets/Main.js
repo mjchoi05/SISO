@@ -1106,7 +1106,7 @@ export function Ah({ onLiveChange: t }) {
       children: g.jsx("div", {
         children: [
           g.jsx("video", {
-            src: "./public/video/comp_1.mp4",
+            src: "./public/video/Comp_1.mp4",
 
             autoPlay: !0,
             loop: !0,
