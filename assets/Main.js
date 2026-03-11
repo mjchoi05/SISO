@@ -1103,23 +1103,27 @@ export function Ah({ onLiveChange: t }) {
         height: "100%",
       },
 
+      //배경화면
       children: g.jsx("div", {
         children: [
           g.jsx("video", {
-            src: "./public/video/Comp_1.mp4",
+            // ❌ 기존 로컬 경로 삭제
+            // src: "./video/comp 1.mp4",
+
+            // ⭕ 복사해 둔 클라우디너리 다이렉트 URL 주소로 교체
+            src: "https://res.cloudinary.com/dmgrwzydi/video/upload/v1773189355/Comp_1_1_ns7cqr.mp4",
 
             autoPlay: !0,
             loop: !0,
             muted: !0,
             playsInline: !0,
-
             style: {
               position: "absolute",
               top: 0,
               left: 0,
               width: "100%",
               height: "100%",
-              objectFit: "cover",
+              objectFit: "cover", // 해상도가 깨지지 않는 선에서 화면을 꽉 채움
             },
           }),
         ],
