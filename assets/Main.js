@@ -473,65 +473,75 @@ export function Ws({ children: t }) {
         //아직안함 여기
         {
           texture: "./public/book/pg_18.png",
-          title: "자신의 유치를 먹으려고 할 때",
-          textContent: "",
+          title: "수분 중독이 발생했을 때",
+          textContent:
+            " 수분 중독이 의심될 때 가정에서 할 수 있는 조치보다 절대 해서는 안 되는 행동을 지키는 것이 훨씬 중요합니다.",
         },
         {
           texture: "./public/book/pg_19.png",
-          title: "자신의 유치를 먹으려고 할 때",
+          title: "수분 중독이 발생했을 때",
           textContent:
-            " 이 시기의 아이가 자신의 유치를 먹으려 한다는 것은 잇몸에 박힌 생니를 스스로의 힘으로 강제 발치하여 삼키려 한다는 것을 의미합니다. ",
+            " 수분 중독이 의심될 때 가정에서 할 수 있는 조치보다 절대 해서는 안 되는 행동을 지키는 것이 훨씬 중요합니다. ",
         },
         {
           texture: "./public/book/pg_20.png",
-          title: "20",
-          textContent: "",
+          title: "식사 중 없는 사람에게 인사할 때",
+          textContent:
+            "아이가 식사 중 허공을 향해 인사를 하거나, 아무도 없는 허공을 향해 자신의 음식을 내미는 듯한 행동을 한 후 다음과 같은 증상(허공을 빤히 바라보며 알 수 없는 언어로 속삭임, 갑자기 식탁 밑을 확인하려 함)을 보인다면                     를 의심해야 합니다.",
         },
         {
           texture: "./public/book/pg_21.png",
-          title: "21",
-          textContent: "",
+          title: "식사 중 없는 사람에게 인사할 때",
+          textContent:
+            "아이가 식사 중 허공을 향해 인사를 하거나, 아무도 없는 허공을 향해 자신의 음식을 내미는 듯한 행동을 한 후 다음과 같은 증상(허공을 빤히 바라보며 알 수 없는 언어로 속삭임, 갑자기 식탁 밑을 확인하려 함)을 보인다면                     를 의심해야 합니다.",
         },
         {
           texture: "./public/book/pg_22.png",
-          title: "22",
-          textContent: "Purchase the official BF/CM hat while supplies last",
+          title: "특정 인물에게 낯을 심하게 가릴 때",
+          textContent:
+            "15개월 아이가 평소와 달리 특정 인물에게만 기형적인 수준의 공포와 낯가림을 보일 때에는 억지로 인사를 시키거나 친해지게 하려는 시도를 하는 것은 아이의 발달에 좋지 않습니다. 해당 인물에게도 예의가 아니고요.",
         },
         {
           texture: "./public/book/pg_23.png",
-          title: "23",
-          textContent: "",
+          title: "특정 인물에게 낯을 심하게 가릴 때",
+          textContent:
+            "15개월 아이가 평소와 달리 특정 인물에게만 기형적인 수준의 공포와 낯가림을 보일 때에는 억지로 인사를 시키거나 친해지게 하려는 시도를 하는 것은 아이의 발달에 좋지 않습니다. 해당 인물에게도 예의가 아니고요.",
         },
         {
           texture: "./public/book/pg_24.png",
-          title: "24",
-          textContent: "",
+          title: "스스로 숨을 쉬려 하지 않을 때",
+          textContent: "분노로 숨을 끊는 듯한 호흡 정지 발작입니다.",
         },
         // 25번부터 30번까지 추가된 페이지 공간입니다. (필요 시 title, textContent 수정)
         {
           texture: "./public/book/pg_25.png",
-          title: "Page 25",
-          textContent: "",
+          title: "스스로 숨을 쉬려 하지 않을 때",
+          textContent:
+            "아이가 부모에게 혼나거나 원하는 장난감을 빼앗겨 극도로 화가 났을 때, “으앙!” 하고 울음을 터뜨리려다 갑자기 숨을 멈춥니다.",
         },
         {
           texture: "./public/book/pg_26.png",
-          title: "Page 26",
-          textContent: "",
+          title: "반려견으로 위장한 누군가가 살고 있다",
+          textContent:
+            "혹시 개를 키우지 않음에도 아이가 소파 밑의 털 달린 무언가에게 간식을 밀어 넣어주고 있지 않나요?",
         },
         {
           texture: "./public/book/pg_27.png",
-          title: "Page 27",
-          textContent: "",
+          title: "반려견으로 위장한 누군가가 살고 있다",
+          textContent:
+            "혹시 개를 키우지 않음에도 아이가 소파 밑의 털 달린 무언가에게 간식을 밀어 넣어주고 있지 않나요?",
         },
         {
           texture: "./public/book/pg_28.png",
-          title: "Page 28",
-          textContent: "",
+          title: "친구 머리로 공놀이를 할 때",
+          textContent:
+            "이 시기 아이들의 매우 자연스러운 놀이 문화입니다. 너무 놀라거나 혼내지 마시고, 아이가 타인을 배려하며 안전하게 놀이할 수 있도록 아래의 올바른 교우관계 예절을 지도해 주시기 바랍니다.",
         },
         {
           texture: "./public/book/pg_29.png",
-          title: "Page 29",
-          textContent: "",
+          title: "친구 머리로 공놀이를 할 때",
+          textContent:
+            "이 시기 아이들의 매우 자연스러운 놀이 문화입니다. 너무 놀라거나 혼내지 마시고, 아이가 타인을 배려하며 안전하게 놀이할 수 있도록 아래의 올바른 교우관계 예절을 지도해 주시기 바랍니다.",
         },
         {
           texture: "./public/book/pg_30.png",
@@ -1152,7 +1162,7 @@ const Jt = [
   {
     //숨
     className: "transactionVolume",
-    pageNumber: 0,
+    pageNumber: 24,
     width: X - 12,
     height: 9,
     top: 27.5,
@@ -1179,7 +1189,7 @@ const Jt = [
   {
     //혼잣말
     className: "topCurrencyVolumes",
-    pageNumber: 0,
+    pageNumber: 20,
     width: X - 12,
     top: 50,
     height: 12,
@@ -1188,16 +1198,16 @@ const Jt = [
   {
     //수분중독
     className: "timeSavedWithLink",
-    pageNumber: 0,
+    pageNumber: 18,
     width: X - 12,
     top: 47,
     height: 12,
     left: K + 16,
   },
   {
-    //머리카락
+    //사고
     className: "fraudDetector",
-    pageNumber: 8,
+    pageNumber: 0,
     width: X - 12,
     top: 59,
     height: 9,
@@ -1206,7 +1216,7 @@ const Jt = [
   {
     //반려견
     className: "stripeTaxCalculations",
-    pageNumber: 0,
+    pageNumber: 26,
     width: X - 12,
     top: 14.3,
     height: 11.6,
@@ -1215,12 +1225,11 @@ const Jt = [
   {
     //공놀이
     className: "totalARRBilling",
-    pageNumber: 0,
+    pageNumber: 28,
     width: 7,
     left: K + 17,
     height: 16,
     top: 68,
-    color: "#f6ff00",
   },
   {
     //야경증
@@ -1230,17 +1239,15 @@ const Jt = [
     height: 10,
     top: 29,
     left: ft + 0.2,
-    color: "#ff0000",
   },
   {
     //몽유병
     className: "crossBorder",
-    pageNumber: 0,
+    pageNumber: 14,
     width: X - 14,
     height: 13,
     top: 26,
     left: ft + 10.7,
-    color: "#ff0000",
   },
   {
     //옷장
@@ -1250,10 +1257,9 @@ const Jt = [
     top: 14.3,
     width: X - 11,
     height: 11.5,
-    color: "#11ff00",
   },
   {
-    //머리카락
+    //머리카락(2개잇음. 확인필요)
     className: "topSellingCities",
     pageNumber: 8,
     width: X - 8,
@@ -1275,7 +1281,7 @@ const Jt = [
   {
     //낯선사람
     className: "apiUptime",
-    pageNumber: 0,
+    pageNumber: 22,
     width: 9.1,
     height: 17,
     top: 80.6,
@@ -1289,7 +1295,6 @@ const Jt = [
     height: 14,
     top: 82,
     left: K + 19,
-    color: "#11ff00",
   },
 
   /*{
